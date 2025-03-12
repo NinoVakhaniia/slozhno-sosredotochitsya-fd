@@ -5,13 +5,10 @@
   --accent-font-color: #000028;
   --accent-bg-color: #ff0070;
   --main-bg-color: #000028;
-  --main-font: "IBM Plex Mono", sans-serif;
-  --bg-image: url(/images/cover-image-dark.png);
+  --main-font: "IBM Plex Mono", monospace, sans-serif;
+  --bg-image: url(../images/cover-image-dark.png);
   --text-size: 18px;
   --main-text-color: #db00ff;
   --nav-color: #ff0070;
   --hover-affect: rgba(255, 0, 112, 0.4);
 }
-
-
-/*Уважаемый ревьюер, понимаю, что работа далека от идеала, но хочется уже услышать мнение профессионала, а не гадать над ошибками. Спасибо за терпение и ваш труд*/

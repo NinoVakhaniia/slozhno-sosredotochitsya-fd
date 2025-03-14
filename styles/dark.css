@@ -20,3 +20,22 @@
   --point-display: inline-block;
   --small-title-color: #ff0070;
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+    --title-font-size-mob: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    --main-font-color: #f1b2ce;
+    --accent-font-color: #000028;
+    --accent-bg-color: #ff0070;
+    --main-bg-color: #000028;
+    --bg-image: url(../images/cover-image-dark.png);
+    --text-size: 18px;
+    --main-text-color: #db00ff;
+    --nav-color: #ff0070;
+    --hover-affect: rgba(255, 0, 112, 0.4);
+    --bg-color: #000028;
+    --point-display: inline-block; 
+    --small-title-color: #ff0070;
+  }
+}

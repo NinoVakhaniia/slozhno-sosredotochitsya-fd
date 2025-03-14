@@ -1,0 +1,53 @@
+/*
+  Специально для светлой темы при наличии класса.
+  Здесь окажутся стили, которые нужно переопределить принудительно,
+  переключая тему
+*/
+
+:root.theme-light {
+  --title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --title-font-size-mob: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --main-font-color: #353430;
+  --accent-font-color: #353430; 
+  --accent-bg-color: #ff8dcb;
+  --main-bg-color: #353430;
+  --bg-image: url(../images/cover-image-light.png);
+  --bg-color: #fff1f7;
+  --text-size: 18px;
+  --main-text-color: #ffc2e6;
+  --nav-color: #353430;
+  --hover-affect: rgba(50, 49, 45, 0.4);
+  --point-display: none;
+  --small-title-color: #353430;
+}
+
+.header__theme-menu-button {
+  color: var(--nav-color);
+}
+
+.why-title {
+  color: var(--small-title-color);
+}
+
+.header__theme-menu-button_type_light:active {
+  outline: 1px solid var(--nav-color);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+    --title-font-size-mob: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    --main-font-color: #353430;
+    --accent-font-color: #353430;
+    --accent-bg-color: #ff8dcb;
+    --main-bg-color: #353430;
+    --bg-image: url(../images/cover-image-light.png);
+    --bg-color: #fff1f7;
+    --text-size: 18px;
+    --main-text-color: #ffc2e6;
+    --nav-color: #353430;
+    --hover-affect: rgba(50, 49, 45, 0.4);
+    --point-display: none;
+    --small-title-color: #353430;
+  }
+}

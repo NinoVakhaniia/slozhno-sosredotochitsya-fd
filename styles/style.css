@@ -44,7 +44,6 @@
   background-color: var(--accent-bg-color);
   color: var(--accent-font-color);
   font-size: var(--text-size);
-  margin-block-end: 10px;
   margin-block-start: 20px;
   font-weight: 700;
 }
@@ -99,6 +98,7 @@
 .shadow {
   cursor: pointer;
   text-decoration: none;
+  text-shadow: 2px 2px 0 var(--accent-bg-color);
 }
 
 .shadow:hover {
@@ -214,10 +214,6 @@
   margin-block-start: 20px;
 }
 
-.shadow {
-  text-shadow: 2px 2px 0 var(--accent-bg-color);
-}
-
 .gallery {
   display: grid;
   gap: 10px;
@@ -313,7 +309,6 @@
     margin-block-start: 0px;
   }
 
-  
   /*Блок 1 статьи 767px*/
 
   .content-section {
@@ -336,8 +331,6 @@
 
   /*Блок 2 статьи 767px*/
 
- 
-
   .title-koncentration {
     grid-column: 1 / auto;
     grid-row: 1 / auto;
@@ -351,7 +344,7 @@
     grid-template-rows: auto;
   }
 
-  .horizontal-card-article{
+  .horizontal-card-article {
     grid-column: 1 / -1;
   }
 
@@ -359,7 +352,7 @@
 
   .why-title {
     grid-column: 1 / auto;
-    grid-row: 1 ;
+    grid-row: 1;
     margin-block-start: 0;
   }
 
@@ -423,23 +416,15 @@
     font-size: var(--title-font-size-mob);
   }
 
-  .border-position { 
+  .border-position {
     bottom: 80px;
   }
-
-
-
 }
-
-
-
-
-
 
 @media (width>=1015px) {
   .header-title {
     white-space: nowrap;
-  }  
+  }
 }
 
 @media (width>=1024px) {

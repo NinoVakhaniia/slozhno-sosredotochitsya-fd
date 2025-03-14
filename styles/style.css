@@ -369,7 +369,7 @@
   }
 
   .article-title {
-    margin-block-end: 0;
+    margin-block-end: 20px;
   }
 
   /*Блок картинки 767px*/

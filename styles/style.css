@@ -1,5 +1,5 @@
 .page {
-  max-width:375px;
+  max-width: 375px;
   font-family: var(--main-font);
   background-attachment: fixed;
   background-position: center;
@@ -258,7 +258,7 @@
 @media (width >=768px) {
   .page {
     padding: 20px;
-    max-width:768px;
+    max-width: 768px;
   }
 
   .section {
@@ -421,19 +421,18 @@
 }
 
 @media (width>=1015px) {
-.page{
-  max-width:1015px;
-}
+  .page {
+    max-width: 1015px;
+  }
 
-.header-title {
-  white-space: nowrap;
+  .header-title {
+    white-space: nowrap;
   }
 }
 
 @media (width>=1024px) {
-
-  .page{
-    max-width:1024px;
+  .page {
+    max-width: 1024px;
   }
 
   .header-text {

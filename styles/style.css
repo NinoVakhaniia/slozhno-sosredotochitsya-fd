@@ -12,10 +12,6 @@
   overflow: auto;
 }
 
-* {
-  outline: 1px solid red;
-}
-
 /*Блок Header*/
 
 .decorated-zone {

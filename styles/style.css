@@ -39,7 +39,7 @@
   white-space: nowrap;
 }
 
-.card-title-horizontal {
+.card-title-horizontal { 
   margin-block-end: 10px;
   background-color: var(--accent-bg-color);
   color: var(--accent-font-color);

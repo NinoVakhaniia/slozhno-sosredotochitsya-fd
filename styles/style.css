@@ -6,7 +6,6 @@
   background-size: cover;
   background-image: var(--bg-image);
   padding: 10px;
-  margin: 0;
   font-size: var(--text-size);
   background-color: var(--bg-color);
   height: 100vh;

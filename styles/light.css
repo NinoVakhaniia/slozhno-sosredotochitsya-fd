@@ -1,14 +1,8 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 :root.theme-light {
   --title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --title-font-size-mob: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --main-font-color: #353430;
-  --accent-font-color: #353430; 
+  --accent-font-color: #353430;
   --accent-bg-color: #ff8dcb;
   --main-bg-color: #353430;
   --bg-image: url(../images/cover-image-light.png);

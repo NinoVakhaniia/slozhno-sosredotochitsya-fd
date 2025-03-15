@@ -12,6 +12,10 @@
   overflow: auto;
 }
 
+* {
+  outline: 1px solid red;
+}
+
 /*Блок Header*/
 
 .decorated-zone {
@@ -433,6 +437,10 @@
 @media (width>=1024px) {
   .page {
     max-width: 1024px;
+  }
+
+  .header-title {
+    margin-left: -15px;
   }
 
   .header-text {

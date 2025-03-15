@@ -1,5 +1,4 @@
 .page {
-  width: 375px;
   font-family: var(--main-font);
   background-attachment: fixed;
   background-position: center;
@@ -9,10 +8,10 @@
   font-size: var(--text-size);
   background-color: var(--bg-color);
   height: 100vh;
-  margin: 0 auto;
+  overflow: auto;
 }
 
-/*Блок Header */
+/*Блок Header*/
 
 .decorated-zone {
   display: grid;
@@ -65,7 +64,7 @@
   display: flex;
   flex-direction: column;
   align-items: end;
-  gap: 10px;
+  gap: 14px;
   margin-right: 0;
   margin-top: 62px;
 }
@@ -76,7 +75,7 @@
   color: var(--nav-color);
   text-transform: lowercase;
   font-family: var(--main-font);
-  padding: 1px 12px;
+  padding: 0 13px;
   cursor: pointer;
 }
 
@@ -257,7 +256,6 @@
 
 @media (width >=768px) {
   .page {
-    width: 767px;
     padding: 20px;
   }
 
@@ -427,10 +425,6 @@
 }
 
 @media (width>=1024px) {
-  .page {
-    width: 1024px;
-  }
-
   .header-text {
     margin-block-start: 27px;
     margin-bottom: 0;

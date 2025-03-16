@@ -79,6 +79,7 @@
 
 .header__theme-menu-button_active {
   outline: 1px solid var(--nav-color);
+  pointer-events: none;
 }
 
 .shadow {
@@ -236,9 +237,7 @@
   display: none;
 }
 
-.header__theme-menu-button_active {
-  pointer-events: none;
-}
+
 
 @media (width >=768px) {
   .page {
